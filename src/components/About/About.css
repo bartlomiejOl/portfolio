@@ -1,0 +1,64 @@
+.About {
+  padding: 0.6rem 0.3rem;
+  max-width: 96rem;
+  margin: 6.25rem 1.8rem;
+  overflow: hidden;
+}
+
+.About__image-wraper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.About__left-conatiner {
+  width: 48%;
+}
+
+.About__title {
+  margin: 2.5rem 0;
+}
+
+.About__text {
+  color: white;
+  width: 90%;
+  font-weight: 500;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.About__hash {
+  color: #0ef;
+}
+
+.About__line {
+  width: 20%;
+  height: 1px;
+  background-color: #0ef;
+}
+
+.About__description {
+  color: #abb2bf;
+}
+
+.About__image-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.About__image {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .About__left-conatiner {
+    width: 95%;
+  }
+  .About__image {
+    margin-top: 2rem;
+  }
+}

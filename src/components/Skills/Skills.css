@@ -1,0 +1,109 @@
+.Skills {
+  padding: 0.6rem 0.3rem;
+  max-width: 96rem;
+  margin: 6.25rem 1.8rem;
+  overflow: hidden;
+}
+
+.Skills__text {
+  color: white;
+  width: 75%;
+  font-weight: 500;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.Skills__hash {
+  color: #0ef;
+}
+
+.Skills__line {
+  width: 35%;
+  height: 1px;
+  background-color: #0ef;
+}
+
+.Skills__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.Skills__left {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Skills__image {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Skills__container {
+  margin: 0 auto;
+  gap: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.Skills__card {
+  width: 90%;
+  flex: 1;
+  gap: 1rem;
+  max-width: 45%;
+  border: 1px solid #abb2bf;
+}
+
+.Skills__card p {
+  margin-bottom: 1rem;
+}
+
+.Skills__header {
+  padding: 0.5rem;
+}
+
+.Skills__title {
+  font-weight: 600;
+}
+
+.Skills__box {
+  display: flex;
+  gap: 0.5rem;
+  border-top: 1px solid #abb2bf;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  color: #abb2bf;
+}
+
+@media (min-width: 768px) {
+  .Skills__container {
+    justify-content: flex-end;
+    width: 50%;
+  }
+}
+
+@media (min-width: 640px) {
+  .Skills__card {
+    width: 45%;
+  }
+}
+
+@media (min-width: 768px) {
+  .Skills__card {
+    max-width: 30%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Skills__card {
+    width: 30%;
+  }
+}

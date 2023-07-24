@@ -1,0 +1,80 @@
+.ProjectCard {
+  border: 1px solid #abb2bf;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+.ProjectCard__content {
+  padding: 0;
+}
+
+.ProjectCard__image {
+  width: 100%;
+}
+
+.ProjectCard__skills {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  border-bottom: 1px solid #abb2bf;
+}
+
+.ProjectCard__skills-text {
+  color: #abb2bf;
+}
+
+.ProjectCard__skills-content {
+  padding: 1rem;
+}
+
+.ProjectCard__skills-content-name {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.ProjectCard__skills-content-description {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #abb2bf;
+}
+
+.ProjectCard__demo {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #fff;
+  border: 1px solid #0ef;
+  background-color: transparent;
+  transition-duration: 0.15s;
+}
+
+.ProjectCard__demo:hover {
+  background-color: rgba(0, 238, 255, 0.2);
+}
+
+.ProjectCard__buttons-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .ProjectCard {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .ProjectCard {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ProjectCard {
+    width: 30%;
+  }
+}

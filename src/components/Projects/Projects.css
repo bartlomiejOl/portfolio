@@ -1,0 +1,46 @@
+.Projects {
+  padding: 0.6rem 0.3rem;
+  max-width: 96rem;
+  margin: 6.25rem 1.8rem;
+  overflow: hidden;
+}
+.Projects__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.Projects__text {
+  color: white;
+  width: 30%;
+  font-weight: 500;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.Projects__hash {
+  color: #0ef;
+}
+
+.Projects__line {
+  width: 60%;
+  height: 1px;
+  background-color: #0ef;
+}
+
+.Projects__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .Projects__text {
+    width: 90%;
+  }
+}
