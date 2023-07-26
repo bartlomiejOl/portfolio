@@ -3,6 +3,7 @@ import { useContent } from '../useContent/useContent';
 import first from './imgs/TesTMaker.png';
 import second from './imgs/DiabetesTracker.png';
 import third from './imgs/CurrencyConverter.png';
+import forth from './imgs/FoodOrder.png';
 import './Projects.css';
 
 const Projects = () => {
@@ -39,6 +40,14 @@ const Projects = () => {
       disc: `${content.description_currency_app}`,
       demo: 'https://bartlomiejol.github.io/currency-app-react/',
       source: 'https://github.com/bartlomiejOl/currency-app-react',
+    },
+    {
+      img: forth,
+      langs: ['react', 'html', 'css', 'javascript'],
+      title: 'FoodOrder',
+      disc: `${content.description_foodorder}`,
+      demo: 'https://foods-orders.netlify.app/',
+      source: 'https://github.com/bartlomiejOl/food-order',
     },
   ];
 

@@ -8,5 +8,5 @@
   font-family: 'Fira Code', monospace;
 }
 body::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
+  display: none;
 }

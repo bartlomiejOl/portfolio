@@ -1,6 +1,7 @@
 .ProjectCard {
   border: 1px solid #abb2bf;
   margin: 0 auto;
+  margin-top: 1rem;
   padding: 0;
   overflow: hidden;
   width: 100%;
