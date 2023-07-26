@@ -3,7 +3,7 @@ import { useContent } from '../useContent/useContent';
 import first from './imgs/TesTMaker.png';
 import second from './imgs/DiabetesTracker.png';
 import third from './imgs/CurrencyConverter.png';
-import forth from './imgs/FoodOrder.png';
+import fourth from './imgs/FoodOrder.png';
 import './Projects.css';
 
 const Projects = () => {
@@ -42,7 +42,7 @@ const Projects = () => {
       source: 'https://github.com/bartlomiejOl/currency-app-react',
     },
     {
-      img: forth,
+      img: fourth,
       langs: ['react', 'html', 'css', 'javascript'],
       title: 'FoodOrder',
       disc: `${content.description_foodorder}`,
